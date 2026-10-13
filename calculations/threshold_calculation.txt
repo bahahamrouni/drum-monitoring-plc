@@ -1,0 +1,38 @@
+data to be collected:
+	empty tank weight
+	batch weight
+	number of batches per day
+	number of operating days per week
+	order timer
+	batch composition=percentage of each chemical in each batch
+
+
+number of batches per day|
+	*		 |
+   batch weight          | 
+	*		 |=> weekly weight consommation
+number of working days   |
+       per week          |
+
+
+s2=empty tanks weight(could be similar or different)
+
+s1-s2=order time(in weeks)*weekly weight consommation*percentage of the relative chemical in the mix
+
+example: if for component A and component B
+empty tank weight=20kg
+the mix is 40% component A, 60% component B
+the batch weight is 400g
+each day 50batches for 5 days a week
+order time= 2weeks
+
+=>weekly consommation=400*50*5=100000g=100kg
+
+for component A
+s1=2*100*0.4=80kg
+s2=20kg
+
+for component B
+s1=2*100*0.6=120kg 
+s2=20kg
+
